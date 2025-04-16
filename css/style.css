@@ -12,9 +12,15 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-header { 
-    text-align: center;
-}
+
+
+h2 { text-align: center; }
+
+
+
+header { text-align: center; }
+
+
 
 #hero,footer { 
     border: 4px solid #677AA5 ;
@@ -65,3 +71,20 @@ header {
 }
 
 figcaption { font-size: 20pt;}
+
+#lit {
+    border: 5px solid #677AA5 ;
+    margin: 2rem;
+    
+
+}
+#lit div {
+    padding: 1rem;
+    max-width: 60rem; 
+    margin: 0 auto;
+}
+
+#lit div p:first-letter {
+    float: left;
+    font-size: 3em;
+}
