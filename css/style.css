@@ -174,3 +174,14 @@ figure img {
 }
 
 
+ #video {
+        text-align: center;
+        border: 5px solid #677AA5 ;
+        border-radius: 15%;
+        
+     }
+
+     
+#video iframe {
+    max-width: 100%;
+  }
