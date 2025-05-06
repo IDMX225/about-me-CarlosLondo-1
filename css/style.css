@@ -178,10 +178,7 @@ figure img {
         text-align: center;
         border: 5px solid #677AA5 ;
         border-radius: 15%;
-        
+        margin: auto;
+        display: block;
+        max-width: 100%;
      }
-
-     
-#video iframe {
-    max-width: 100%;
-  }
