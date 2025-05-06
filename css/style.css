@@ -198,7 +198,11 @@ figure img {
     margin-bottom: 1em;
  }
 
-
+legend { 
+    background-color: #677AA5;
+    color: #FAC648;
+    padding: .5em;
+}
 
 
  #contact input, #contact textarea, #contact button {
