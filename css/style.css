@@ -21,15 +21,12 @@ h2 {
 
 
 
-header { text-align: center; }
 
-
-
-
-
-
-
-
+#logo img {
+    margin-right: 1rem; 
+    margin-bottom: 1rem; 
+    display: block;      
+}
 
 #hero,footer { 
     border: 4px solid #677AA5 ;
@@ -187,7 +184,7 @@ figure img {
     }
 
 #contact {
-    padding: 1rem;
+    padding: 2rem;
     max-width: 600px;
     margin: 2rem auto;
 }
@@ -209,3 +206,33 @@ legend {
     padding:.5m;
     font-size: 1rem;
  }
+
+
+
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    transition: opacity 0.3s;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+ 
+
+  body:has(:not(:root:empty):nth-child(2):is(:not(:empty))) .back-to-top-btn {
+    display: block;
+  }
+  
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+  }
