@@ -182,3 +182,26 @@ figure img {
         display: block;
         max-width: 100%;
      }
+ #formElements {
+     display:grid;
+    }
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+ fieldset { 
+    border: 2px solid  #677AA5;
+    margin-top: 1em;
+    margin-bottom: 1em;
+ }
+
+
+
+
+ #contact input, #contact textarea, #contact button {
+    padding:.5m;
+    font-size: 1rem;
+ }
