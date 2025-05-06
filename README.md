@@ -3,7 +3,7 @@ Carlos Salinas
 Netlify Status
 📄 Project Description
 
-Welcome to my About Me project, created as part of my Web Development 1 course. This project has been a step-by-step journey where I’ve used HTML, CSS, and responsive design techniques to showcase my skills and personal interests through a personalized webpage. Every section of this site has been crafted by hand to reflect who I am — from coding to music to cats!
+Welcome to my About Me project, created as part of my Web Development 1 course. This project has been a step-by-step journey where I’ve used HTML, CSS, and responsive design to show my skills and personal interests through a personalized webpage. Every section of this site has been made by hand to reflect who I am from coding to music to cats!
 
 Over the past few weeks, I’ve learned and applied a variety of front-end development skills including:
 
@@ -17,7 +17,8 @@ Over the past few weeks, I’ve learned and applied a variety of front-end devel
 
     Implementing navigation bars with internal anchor links and styled logo elements.
 
-I added a personal avatar, a gallery of my PC builds and my cat, and even embedded a classic excerpt from Sherlock Holmes to showcase my love of mystery literature. The contact form was especially interesting to build, and I made sure it works with Netlify.
+I added a personal avatar, a gallery of my PC builds and my cat, and embedded pieces from Sherlock Holmes. The contact form was especially interesting to build, and I made sure it works with Netlify.
+
 🎨 Color Scheme
 
 I wanted a warm and creative color scheme that pops visually but still feels readable and inviting.
