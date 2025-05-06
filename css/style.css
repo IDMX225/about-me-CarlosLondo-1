@@ -1,215 +1,248 @@
-body {
-
-        font-family: sans-serif ;
-        background-color:#FAC648;
-        color:#487FFA;
-
+/* 
+   GLOBAL STYLES & TYPOGRAPHY
+    */
+   body {
+    font-family: sans-serif;
+    background-color: #FAC648;
+    color: #487FFA;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     font-size: 35pt;
-    
+    margin: 0.5rem 0;
 }
 
-
-
-h2 { 
+h2 {
     text-align: center;
-    margin: .1rem;
+    margin: 0.2rem;
 }
 
-
-
-
+/* 
+   LOGO SECTION
+    */
 #logo img {
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    display: block;      
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    border-radius: 10px;
 }
 
-#hero,footer { 
-    border: 4px solid #677AA5 ;
+/* 
+   HERO SECTION & FOOTER
+   */
+#hero,
+footer {
+    border: 4px solid #677AA5;
     color: #487FFA;
-    background-color:#BAA065;
+    background-color: #BAA065;
     text-align: center;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-#hero 
-{font-size: 20pt;}
-
+#hero {
+    font-size: 20pt;
+}
 
 #hero img {
-    width:300px;
+    width: 300px;
+    border-radius: 12px;
 }
 
+/* 
+   BIO SECTION
+   */
 #bio {
     font-size: 15pt;
     text-align: center;
+    padding: 1rem;
+    border-radius: 12px;
 }
 
+#bio ul li:nth-child(even) {
+    color: #000;
+}
 
-#bio ul li:nth-child(even){
-         color:#000;
- }
-
-
-
-
-
-
-
-
-
-
+/* 
+   HOBBIES SECTION
+    */
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 1rem;
 }
 
+#hobbies ul {
+    padding: 0;
+}
 
 #hobbies ul li:nth-child(even) {
-        color:#000; 
+    color: #000;
 }
 
-
-
-
-
-
-
-
+/* 
+   GALLERY SECTION
+    */
 #gallery {
     border: 4px solid #677AA5;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-#gallery img{
+#gallery img {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 #gallery figure {
     text-align: center;
+    margin: 1rem 0;
 }
 
-figcaption { font-size: 20pt;}
+figcaption {
+    font-size: 20pt;
+    margin-top: 0.5rem;
+}
 
-
-
-
-
-
-
+/* 
+   LITERATURE / ARTICLE SECTION
+    */
 #lit {
-    border: 5px solid #677AA5 ;
+    border: 5px solid #677AA5;
     margin: 2rem;
-    
-
+    border-radius: 15px;
+    background-color: #fff6e5;
 }
+
 #lit div {
     padding: 1rem;
-    max-width: 60rem; 
+    max-width: 60rem;
     margin: 0 auto;
 }
-
-
 
 #lit div p:first-letter {
     float: left;
     font-size: 3em;
+    line-height: 1;
+    padding-right: 0.1em;
 }
 
+/* 
+   MEDIA QUERIES FOR LARGER SCREENS
+    */
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
 
-
-
-
-
-@media screen and (min-width:60em)  {
-
-        figure {
-          display:grid;
-          grid-template-columns: 2fr 1fr;
-          }
-
-        figcaption{
-        display:flex;
+    figcaption {
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
-                            }
+    }
 
-figure img {
-    width: 100%;
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 40rem;
+    }
 }
 
-#lit div {
-    max-width: 100%;
-    columns: 40rem;
-}
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
 
-}
-
-@media screen and (min-width:100em) {
-        
-#gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-        }
-
- hr{ 
+    hr {
         display: none;
-    } 
+    }
 
     #gallery h2 {
-        grid-column: 1/-1;
+        grid-column: 1 / -1;
     }
 
-    figure {display:block;}
-
+    figure {
+        display: block;
+    }
 }
 
+/* 
+   VIDEO SECTION
+   */
+#video {
+    text-align: center;
+    border: 5px solid #677AA5;
+    border-radius: 20px;
+    margin: 2rem auto;
+    display: block;
+    max-width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+}
 
- #video {
-        text-align: center;
-        border: 5px solid #677AA5 ;
-        border-radius: 15%;
-        margin: auto;
-        display: block;
-        max-width: 100%;
-     }
- #formElements {
-     display:grid;
-    }
+/* 
+   CONTACT FORM SECTION
+    */
+#formElements {
+    display: grid;
+    gap: 1rem;
+}
 
 #contact {
     padding: 2rem;
     max-width: 600px;
     margin: 2rem auto;
+    border: 2px solid #677AA5;
+    border-radius: 15px;
+    background-color: #fffef9;
 }
 
- fieldset { 
-    border: 2px solid  #677AA5;
+fieldset {
+    border: 2px solid #677AA5;
     margin-top: 1em;
     margin-bottom: 1em;
- }
-
-legend { 
-    background-color: #677AA5;
-    color: #FAC648;
-    padding: .5em;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
+legend {
+    background-color: #677AA5;
+    color: #FAC648;
+    padding: .5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+}
 
- #contact input, #contact textarea, #contact button {
-    padding:.5m;
+#contact input,
+#contact textarea,
+#contact button {
+    padding: 0.5em;
     font-size: 1rem;
- }
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-
-
-
+/* 
+   BACK TO TOP BUTTON
+    */
 .back-to-top-btn {
     position: fixed;
     bottom: 20px;
@@ -223,16 +256,20 @@ legend {
     transition: opacity 0.3s;
     text-align: center;
     line-height: 1.5;
-  }
-  
- 
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
 
-  body:has(:not(:root:empty):nth-child(2):is(:not(:empty))) .back-to-top-btn {
+body:has(:not(:root:empty):nth-child(2):is(:not(:empty))) .back-to-top-btn {
     display: block;
-  }
-  
+}
 
-  .wrapper {
+/* 
+   PAGE WRAPPER GRID
+    */
+.wrapper {
     display: grid;
     grid-template-columns: auto;
-  }
+    gap: 1rem;
+    padding: 1rem;
+}

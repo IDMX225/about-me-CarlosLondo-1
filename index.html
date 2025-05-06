@@ -1,267 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-         <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>About me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
 
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100.
-            .900&display=swap" rel="stylesheet">
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Link to Google Fonts for custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
 
+    <!-- External Stylesheets -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
 
-            <link href="css/style.css" rel="stylesheet">
-            <link href="css/nav.css" rel="stylesheet">
-
-            <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-
+    <!-- Favicon for the website -->
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 </head>
-
 
 <body>
 
+<!-- Header Section with Navigation Bar -->
 <header>
+    <nav class="navbar">
+        <div class="logo">
+            <!-- Logo Image -->
+            <img src="lobster-ct.svg" alt="Logo">
+            <h1>All about me</h1>
+        </div>
 
-     <nav class="navbar">
-
-         <div class="logo">
- 
-            <img src="lobster-ct.svg" alt="initial logo">
- 
-          <h1> All about me</h1> 
- 
-     </div>
-
-
-
-    <div class="navbar-links">
-    <ul>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#lit">Blog</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-    </ul>
-
-    </div>
-
+        <div class="navbar-links">
+            <!-- Navigation Links -->
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#lit">Blog</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
     </nav>
+</header>
 
 <main>
 
-
+<!-- Hero Section with Profile Image -->
 <section id="hero">
-
-
-            <img src="img/avataaars.png" alt=" ava of me">
-
-     <div>
-
-            <p>Carlos Salinas</p>
-             <p>Manville, Nj</p>
-            
+    <img src="img/avataaars.png" alt="Profile Picture">
+    <div>
+        <p>Carlos Salinas</p>
+        <p>Manville, NJ</p>
     </div>
-
-
 </section>
 
+<!-- Biography Section -->
 <section id="bio">
-
-        <h2>Biography:</h2>
-
-        <div>
-            <p>I want to be.....</p>
-
-             <p>a good developer</p>
-
-             <p>I like building pcs</p>
-
-             <P>Programing</P>
-
-             <p>Playing the pianio</p>
-        </div>
-
-
-
+    <h2>Biography:</h2>
+    <div>
+        <p>I want to be.....</p>
+        <p>a good developer</p>
+        <p>I like building pcs</p>
+        <p>Programming</p>
+        <p>Playing the piano</p>
+    </div>
 </section>
 
-
+<!-- Hobbies Section -->
 <section id="hobbies">
-
-    <h2>hobbies:</h2>
-
-    
-                <ul>
-
-                        <li>building pcs </li>
-                        <li>playing the pianio</li>
-                        <li>reading mystery books</li>
-                        <li>playing the bass</li>
-                        <li>riding my bike</li>
-                        <li>playing games</li>
-                        <li>etc.</li>
-
-                </ul>
-
-
-
-
+    <h2>Hobbies:</h2>
+    <ul>
+        <li>Building PCs</li>
+        <li>Playing the piano</li>
+        <li>Reading mystery books</li>
+        <li>Playing the bass</li>
+        <li>Riding my bike</li>
+        <li>Playing games</li>
+        <li>etc.</li>
+    </ul>
 </section>
 
-
-
+<!-- Gallery Section with Images -->
 <section id="gallery">
-
-        <h2>photo gallery</h2>
-        
-        <hr>
-
+    <h2>Photo Gallery</h2>
+    <div class="gallery-images">
         <figure>
-            <img src="img/kitty1-640w.jpg" alt="cat chilling">
-            <figcaption>miso the cat</figcaption>
+            <img src="img/kitty1-640w.jpg" alt="Cat chilling">
+            <figcaption>Miso the cat</figcaption>
         </figure>
 
-        <hr>
-
         <figure>
-            <img src="img/music-640w.jpg" alt="my vinyl shelf">
-            <figcaption>my vinyl collection</figcaption>
+            <img src="img/music-640w.jpg" alt="Vinyl collection">
+            <figcaption>My vinyl collection</figcaption>
         </figure>
 
-        <hr>
-
         <figure>
-            <img src="img/pc-640w.jpg" alt="pc i built">
-            <figcaption>new pc build</figcaption>
+            <img src="img/pc-640w.jpg" alt="PC build">
+            <figcaption>New PC build</figcaption>
         </figure>
-    
+    </div>
 </section>
 
-    <article id="lit">
-
-        <h2> an exerpt from sherlock homes</h2>
-
-        <div>
+<!-- Blog/Excerpt Section (Sherlock Holmes excerpt) -->
+<article id="lit">
+    <h2>An Excerpt from Sherlock Holmes</h2>
+    <div>
+        <p>
+            To Sherlock Holmes she is always <em>the woman</em>. In his eyes, she eclipsed and predominated the whole of her sex. "You see, but you do not observe," he once said, fingers steepled beneath his chin, eyes glinting with deduction. 
+            The game is afoot, and facts must be gathered before the mind begins to theorize. "It is a capital mistake to theorize before one has data," Holmes would lecture, pipe in hand, the air thick with the sweet scent of Persian tobacco. 
+            "Insensibly one begins to twist facts to suit theories." His world was a symphony of ash traces, footprints, and half-written telegrams. To the untrained eye, it was chaos. But to Holmes, it was music. “My mind,” he declared once, 
+            “rebels at stagnation. Give me problems, give me work.” And so, day after day, mystery after mystery, the rooms at 221B Baker Street became the stage for some of the most bizarre and brilliant deductions known to London. Watson, ever faithful, 
+            would shake his head in wonder. "You astound me," he’d mutter. Holmes would only smile. “Naturally,” he’d reply.
+            </p>
+            
             <p>
-                To Sherlock Holmes she is always <em>the woman</em>. In his eyes, she eclipsed and predominated the whole of her sex. "You see, but you do not observe," he once said, fingers steepled beneath his chin, eyes glinting with deduction. 
-                The game is afoot, and facts must be gathered before the mind begins to theorize. "It is a capital mistake to theorize before one has data," Holmes would lecture, pipe in hand, the air thick with the sweet scent of Persian tobacco. 
-                "Insensibly one begins to twist facts to suit theories." His world was a symphony of ash traces, footprints, and half-written telegrams. To the untrained eye, it was chaos. But to Holmes, it was music. “My mind,” he declared once, 
-                “rebels at stagnation. Give me problems, give me work.” And so, day after day, mystery after mystery, the rooms at 221B Baker Street became the stage for some of the most bizarre and brilliant deductions known to London. Watson, ever faithful, 
-                would shake his head in wonder. "You astound me," he’d mutter. Holmes would only smile. “Naturally,” he’d reply.
-                </p>
-                
-                <p>
-                It was the dog that did not bark in the night, the clumsy smear of ink on a suspect’s cuff, the trace of clay on a walking stick that led Holmes to truth.
-                 He was no seeker of glory, only of precision. "I am a consulting detective," he’d say, “not a magician.” Scotland Yard, often baffled, would trail behind, 
-                 scratching their heads while Holmes vanished down some shadowed alleyway with Watson in tow. “Come, Watson, come! The game is afoot!” And off they'd go, into 
-                 the fog-choked streets of Victorian London, chasing clues invisible to everyone else. “The world is full of obvious things,” Holmes said once, “which nobody by any 
-                 chance ever observes.” And therein lay his genius. Not in wild guesswork, but in cold, relentless observation. Even in silence, Holmes spoke volumes — through his violin, 
-                 through his stillness, through the glint in his eye when the pieces finally clicked. And when the case was solved, he would simply return to his armchair, light his pipe, and speak 
-                 no more of it, save to say, “You know my methods. Apply them.”
-                </p>
-                
+            It was the dog that did not bark in the night, the clumsy smear of ink on a suspect’s cuff, the trace of clay on a walking stick that led Holmes to truth.
+             He was no seeker of glory, only of precision. "I am a consulting detective," he’d say, “not a magician.” Scotland Yard, often baffled, would trail behind, 
+             scratching their heads while Holmes vanished down some shadowed alleyway with Watson in tow. “Come, Watson, come! The game is afoot!” And off they'd go, into 
+             the fog-choked streets of Victorian London, chasing clues invisible to everyone else. “The world is full of obvious things,” Holmes said once, “which nobody by any 
+             chance ever observes.” And therein lay his genius. Not in wild guesswork, but in cold, relentless observation. Even in silence, Holmes spoke volumes — through his violin, 
+             through his stillness, through the glint in his eye when the pieces finally clicked. And when the case was solved, he would simply return to his armchair, light his pipe, and speak 
+             no more of it, save to say, “You know my methods. Apply them.”
+            </p>
+    </div>
+</article>
 
-        </div>
+<!-- Video Section -->
+<section id="video">
+    <h2>A Short Video:</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fuwbMcUfel4?si=fbDTt8naTkRZgudg" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
 
-    </article>
+<!-- Contact Form Section -->
+<section id="contact">
+    <h2>Contact Us:</h2>
 
-
-
-
-
-    <section id="video">
-                <h2>A Short Video:</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fuwbMcUfel4?si=fbDTt8naTkRZgudg" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                 allowfullscreen> </iframe>
-    </section>
-
-
-
-
-
-
-    <section id="contact">
-        <h2>Contact Us:</h2>
-
-      
-        <form id="contactForm" name="contactForm" method="post" data-netlify="true">
-          <fieldset>
+    <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+        <fieldset>
             <legend>Contact Form</legend>
 
-
-      
             <div id="formElements">
-              
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
 
-              <label for="name">Name (required)</label>
-              <input type="text" id="name" name="name" required>
-      
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" name="email" required>
 
+                <label for="phone">Phone (required)</label>
+                <input type="tel" id="phone" name="phone" required>
 
-              
-              <label for="email">Email (required)</label>
-              <input type="email" id="email" name="email" required>
-      
-             
-              <label for="phone">Phone (required)</label>
-              <input type="tel" id="phone" name="phone" required>
-      
-            
-              <label for="phonetype">Phone type (optional)</label>
-              <select id="phonetype" name="phonetype">
-            <option value="" selected>Select phone type</option>
-            <option value="Mobile">Mobile</option>
-            <option value="Work">Work</option>
-             <option value="Home">Home</option>
-              </select>
-      
-       
-              <label for="message">Message (optional)</label>
-              <textarea id="message" name="message" rows="8"></textarea>
-      
-              
-              <fieldset>
-            <legend>Would you like a reply?</legend>
-  <ul>
-        <li>
-                <input type="radio" id="message-yes" name="reply">
-                <label for="message-yes">Yes, a reply would be nice.</label>
+                <label for="phonetype">Phone type (optional)</label>
+                <select id="phonetype" name="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                </select>
 
-        </li>
+                <label for="message">Message (optional)</label>
+                <textarea id="message" name="message" rows="8"></textarea>
 
-        <li>
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="message-yes" name="reply">
+                            <label for="message-yes">Yes, a reply would be nice.</label>
+                        </li>
 
-                <input type="radio" id="message-no" name="reply" checked>
-                <label for="message-no">No, thanks.</label>
+                        <li>
+                            <input type="radio" id="message-no" name="reply" checked>
+                            <label for="message-no">No, thanks.</label>
+                        </li>
+                    </ul>
+                </fieldset>
 
-        </li>
-
- </ul>
-              </fieldset>
-      
-              
                 <button type="submit">Send</button>
-    </div>
+            </div>
+        </fieldset>
+    </form>
+</section>
 
-    </fieldset>
-
-     </form>
-
-    </section>
-   
-
-    <a href="#top" class="back-to-top-btn">↑</a>
+<!-- Back to Top Button -->
+<a href="#top" class="back-to-top-btn">↑</a>
 
 </main>
 
+<!-- Footer Section with Copyright Information -->
 <footer>
-   
-    © 2025 - Carlos A Salinas londono
-
+    © 2025 - Carlos A Salinas Londono
 </footer>
-
 
 </body>
 </html>
