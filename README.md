@@ -35,6 +35,9 @@ Header/Section BG
 These colors work well across light and dark screens, and I tested them to make sure they meet accessibility standards for contrast.
 📚 Citations
 
+
+
+
 While most of the content is original, the following sources were referenced for inspiration and embedded materials:
 
     Sherlock Holmes excerpt: Sir Arthur Conan Doyle, Public Domain
@@ -42,6 +45,9 @@ While most of the content is original, the following sources were referenced for
     Fonts: Google Fonts - Noto Sans Mono
 
     Netlify Badge Generator: Netlify Docs
+sources for blog
+https://www.youtube.com/watch?v=StsPKN3M-Bg
+https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
 
 ⚖️ License
 

@@ -18,6 +18,10 @@
 
     <!-- Favicon for the website -->
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+
+    
+    
+
 </head>
 
 <body>
@@ -25,19 +29,23 @@
 <!-- Header Section with Navigation Bar -->
 <header>
     <nav class="navbar">
+        
         <div class="logo">
+            
             <!-- Logo Image -->
             <img src="lobster-ct.svg" alt="Logo">
+            
             <h1>All about me</h1>
         </div>
 
         <div class="navbar-links">
             <!-- Navigation Links -->
+            
             <ul>
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#lit">A story</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#Blog">Blog</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
@@ -59,25 +67,27 @@
 <section id="bio">
     <h2>Biography:</h2>
     <div>
-        <p>I want to be.....</p>
-        <p>a good developer</p>
-        <p>I like building pcs</p>
-        <p>Programming</p>
-        <p>Playing the piano</p>
-    </div>
+        <p>Hi! My name is [Your Name], and I’ve always been the kind of person who likes to figure out how things work. That curiosity is what got me into computers and programming. I think it’s really cool how you can create something from nothing with just code. I want to become a good developer someday—someone who can build helpful and fun things for others to use.</p>
+
+<p>I first got into tech when I built my own PC. It was like a puzzle, and when I finished, it felt amazing. Since then, I’ve been trying to learning how to code. I like making small projects and trying out new things. Even when I get stuck, I enjoy figuring out the problem—it’s all part of the fun.</p>
+
+<p>Besides tech, music is a big part of my life. I’ve been playing the piano for a while, and I recently started learning the bass guitar. Playing music helps me chill out and focus. Sometimes it even helps me think through tricky coding problems. I also enjoy reading, especially mystery books, and learning about new topics just for fun. I’m not sure exactly where all of this will take me, but I’m excited to keep learning and growing.</p>
+
+<img src="img/friends and me.640w.jpg" alt="mewithfriends">
+<figcaption>me with my friends</figcaption>
 </section>
+
+
 
 <!-- Hobbies Section -->
 <section id="hobbies">
     <h2>Hobbies:</h2>
     <ul>
-        <li>Building PCs</li>
-        <li>Playing the piano</li>
-        <li>Reading mystery books</li>
-        <li>Playing the bass</li>
-        <li>Riding my bike</li>
-        <li>Playing games</li>
-        <li>etc.</li>
+    <li>Building PCs is one of my hobbies, and it's always fun because it kind of feels like adult Legos.</li>
+    <li>Playing the piano is one of my favorite ways to relieve stress.</li>
+    <li>Reading mystery books online is always a good time for me.</li>
+    <li>I like playing the bass and jamming with some friends.</li>
+    <li>Playing games online with friends is one of my favorite things to do.</li>
     </ul>
 </section>
 
@@ -85,24 +95,23 @@
 <section id="gallery">
     <h2>Photo Gallery</h2>
     <div class="gallery-images">
-        <figure>
             <img src="img/kitty1-640w.jpg" alt="Cat chilling">
             <figcaption>Miso the cat</figcaption>
-        </figure>
+        </div>
 
-        <figure>
+        <div class="gallery-images">
             <img src="img/music-640w.jpg" alt="Vinyl collection">
             <figcaption>My vinyl collection</figcaption>
-        </figure>
+        </div>
 
-        <figure>
+        <div class="gallery-images">
             <img src="img/pc-640w.jpg" alt="PC build">
             <figcaption>New PC build</figcaption>
-        </figure>
+       </div>
     </div>
 </section>
 
-<!-- Blog/Excerpt Section (Sherlock Holmes excerpt) -->
+<!-- Excerpt Section (Sherlock Holmes excerpt) -->
 <article id="lit">
     <h2>An Excerpt from Sherlock Holmes</h2>
     <div>
@@ -129,30 +138,123 @@
 
 
 
-
+<!-- blog -->
 
 <section id="Blog">
-    <h2> Blog</h2>
-    <div class="blog img">
-
-        <p>
-            CSS clipping and masking are powerful tools in modern web design. They allow designers to create visually stunning effects by manipulating the boundaries of elements and controlling which parts of an element are visible. Whether you're working on complex layouts, interactive animations, or just looking to enhance the design of your website, understanding how to use clipping and masking can open up new possibilities.
-        </p>
-
-        <figure>
-            <img src="img/flower-640w.jpg" alt="random flower">
-            <figcaption></figcaption>
+    <h2>Blog Article: Clipping and Masking with CSS</h2>
+    <div class="row">
+        <div class="column">
+            <figure>
+          <img src="img/flower-640w.jpg" alt="random flower" style="width:100%">
         </figure>
+        </div>
+        <div class="column">
+            <figure>
+          <img src="img/spring-640w.jpg" alt="springs" style="width:100%">
+            </figure>
+        </div>
+        <div class="column">
+            <figure>
+          <img src="img/plane.640w.jpg" alt="jetblue" style="width:100%">
+            </figure>
+        </div>
+      </div>
+    </div>
+    <div>
+    <p>
 
-        <figure>
-            <img src="img/spring-640w.jpg" alt="water spring">
-            <figcaption></figcaption>
-        </figure>
+        CSS clipping and masking are powerful tools in modern web design. They allow designers to create visually stunning effects by manipulating the boundaries of elements and controlling which parts of an element are visible. Whether you're working on complex layouts, interactive animations, or just looking to enhance the design of your website, understanding how to use clipping and masking can open up new possibilities.
+        CSS Clipping allows you to hide parts of an element by specifying a region of the element that should remain visible. This is achieved using the clip-path property in CSS. Essentially, the clip-path property lets you define a shape that will "clip" the content of an element, meaning only the portion inside the defined shape is displayed, while the rest is hidden.</p>
 
-        <figure>
-            <img src="img/plane.640w.jpg" alt="jet blue">
-           <figcaption></figcaption>
-        </figure>
+        <h3>What is Clipping in CSS? </h3>
+    <p> Clipping defines what part of an element is visible. Everything outside the shape you define is hidden. This is done with the clip-path property. According to MDN Web Docs, clip-path can use basic shapes like circle(), ellipse(), or polygon(), or even reference an SVG path.</p>
+ <h3>Example: Circle Clip Path</h3>
+    <p>html</p>
+  
+  <pre>
+<code>
+    div class="circle-clip">
+        img src="your-image.jpg" alt="Circle Clipped Image"
+      /div   
+</code>
+</pre>
+    <p>css</p>
+    <pre>
+        <code>
+    .circle-clip img {
+        width: 300px;
+        height: auto;
+        clip-path: circle(50% at 50% 50%);
+      }
+ </code>
+        </pre>
+
+<h3>Visual Output:</h3>
+<p> This clips the image into a perfect circle centered in the element.  In Kevin Powell’s YouTube tutorial, he explains that clip-path isn’t just for images — it can also apply to text blocks, buttons, and containers, which makes it very versatile.</p>
+
+<h3>Example: Polygon Clip Path (Hexagon)</h3>
+
+<p>css</p>
+<code>.hexagon img {
+    width: 300px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }</code>
+  <p>This example clips the image into a hexagonal shape — perfect for custom avatars or gallery elements.</p>
+
+<h3>What is Masking in CSS?</h3>
+
+<p>Masking, on the other hand, is about transparency. It uses a separate image or gradient to determine which parts of an element are visible. Think of it like laying a stencil over your content.</p>
+
+<p>The W3C’s official spec on CSS Masking explains that you can use mask-image, mask-mode, and mask-composite to control how multiple masks are layered and displayed.</p>
+<h3>Example: Masking With an Image</h3>
+<p>html</p>
+<pre> <code> div class="masked"
+    img src="your-image.jpg" alt="Masked Image"
+  /div </code> </pre>
+<p>css</p>
+<code>.masked img {
+    width: 300px;
+    mask-image: url('your-mask.png');
+    -webkit-mask-image: url('your-mask.png'); /* Safari support */
+    mask-size: cover;
+  }</code>
+
+  <p>The mask image controls which areas of the element remain visible. Opaque areas are fully shown; transparent areas are hidden.</p>
+
+<h3>Example: Masking With a Gradient</h3>
+<p>css</p>
+<code>.gradient-mask img {
+    width: 300px;
+    mask-image: linear-gradient(to right, black 50%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 50%, transparent 100%);
+  }</code>
+  <p>This fades the image out from left to right, creating a smooth transition effect.</p>
+
+  <h3>When Should You Use Clipping or Masking?</h3>
+  
+
+  <p>Use clipping when:
+
+    You want sharp, clean shape cutouts (like circles or polygons)
+
+    Performance matters — clip-paths are more lightweight
+
+    You don’t need transparency or fading effects
+</p>
+    <p>
+        Use masking when:
+
+        You want gradients or partial visibility
+    
+        You need to match a custom mask image (like logos or stencils)
+    
+        You’re designing creative transitions or overlays</p>
+
+       <p> CSS clipping and masking offer web designers powerful ways to shape and reveal content. With clip-path, you can create dynamic and interactive layouts with minimal code. With mask-image, you can push the creative boundaries using transparency, gradients, and layered visuals.
+
+For a deeper dive, I highly recommend Kevin Powell’s video tutorial, which visually explains the differences and offers fun coding examples to follow along with.
+
+By replacing your site’s placeholder content with styled, clipped, and masked visuals, you can create a memorable user experience — and that’s what great design is all about.</p>
     </div>
 </section>
 
